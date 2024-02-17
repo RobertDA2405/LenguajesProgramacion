@@ -1,5 +1,5 @@
 class CuentaBancaria:
-    def __init__(self, saldo_inicial):
+    def __init__(self, saldo_inicial=0):
         self.__saldo = saldo_inicial # Atributo privado
 
     def depositar(self, cantidad):
