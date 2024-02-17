@@ -1,5 +1,5 @@
 #listas
-lista = [1, 2, 3, "Manzana", 15.6, True]
+lista = [1, 2, 3, "Manzana", 15.6, True, False]
 print(lista)
 
 #imprimir el primer elemento de la lista
@@ -17,4 +17,17 @@ print(lista[3:7])
 
 #agregar un elemento a la lista
 lista.append("Roberto")
+print(lista)
+
+#imprimir los ultimos tres elementos de la lista
+final = len(lista)
+inicio = final - 3
+print(lista[inicio: final +1])
+
+#eliminar manzana
+lista.remove("Manzana")
+lista.remove("Roberto")
+
+#ordenar lista
+lista.sort()
 print(lista)
